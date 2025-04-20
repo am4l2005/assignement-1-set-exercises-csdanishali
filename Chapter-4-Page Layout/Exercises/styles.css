@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+  }
+  
+  header {
+    background-color: #1e0b35;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  header h1 {
+    font-size: 2.5em;
+    text-decoration: underline;
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+  }
+  
+  main {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .welcome {
+    flex: 2;
+    margin-right: 20px;
+  }
+  
+  .welcome h2 {
+    font-size: 1.5em;
+    text-decoration: underline;
+  }
+  
+  .welcome img {
+    width: 100%;
+    max-width: 700px;
+    margin-top: 10px;
+  }
+  
+  .line-up {
+    flex: 1;
+    background-color: #1b3363;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
+  .line-up h2 {
+    text-decoration: underline;
+  }
+  
+  .line-up ul {
+    padding-left: 20px;
+  }
+  
+  .images {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+  }
+  
+  .images img {
+    width: 48%;
+    border: 2px solid #fff;
+  }
+  
+  footer {
+    text-align: center;
+    background-color: #7c2ae8;
+    color: white;
+    padding: 10px 0;
+  }
+  
