@@ -9,5 +9,6 @@ document.getElementById('calculateBtn').addEventListener('click', function () {
   
     // Display the result, formatted to 2 decimal places
     document.getElementById('total').textContent = `Total: £${totalCost.toFixed(2)}`;
+    
   });
   

@@ -68,3 +68,4 @@ playAgainBtn.addEventListener("click", () => {
 });
 
 generateGame(); // Initial game
+
