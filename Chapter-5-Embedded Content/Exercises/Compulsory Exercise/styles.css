@@ -1,0 +1,18 @@
+/* Reset and Centering */
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #020202;
+  }
+  
+  /* Style video container */
+  .video-container video {
+    max-width: 90%;
+    max-height: 80vh;
+    border-radius: 10px;
+    border: 2px solid #444;
+  }
+  
